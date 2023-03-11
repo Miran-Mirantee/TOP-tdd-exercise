@@ -17,5 +17,9 @@ test("Input nothing", () => {
 });
 
 test("Input empty string", () => {
-  expect(() => capitalize()).toThrow("Input cannot be blank");
+  expect(() => capitalize("")).toThrow("Input cannot be blank");
+});
+
+test("Input space string", () => {
+  expect(() => capitalize("     ")).toThrow("Input cannot be blank");
 });
