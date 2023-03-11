@@ -1,0 +1,23 @@
+{
+  "name": "top-tdd-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miran-Mirantee/TOP-tdd-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miran-Mirantee/TOP-tdd-exercise/issues"
+  },
+  "homepage": "https://github.com/Miran-Mirantee/TOP-tdd-exercise#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "prettier": "2.8.4"
+  }
+}
